@@ -3,13 +3,11 @@
     "pages/list/main",
     "pages/detail/main",
     "pages/index/main",
-    "pages/logs/main"
-  ],
+    "pages/logs/main"  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
-  },
-  "sitemapLocation": "sitemap50.json"
+  }
 }

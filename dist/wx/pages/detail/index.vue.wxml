@@ -1,18 +1,1 @@
-<template name="49c40bfa">
-  <view class="_div data-v-236613da">
-    <swiper indicator-dots indicator-color="#fff" indicator-active-color="#666" autoplay interval="2000" duration="500" circular class="_swiper data-v-236613da">
-      <block wx:key="item" key="{{item}}" wx:for="{{hero.bgs}}" wx:for-index="index" wx:for-item="item">
-        <swiper-item class="_swiper-item data-v-236613da">
-          <image src="item" class="_image data-v-236613da"></image>
-        </swiper-item>
-      </block>
-    </swiper>
-    <view class="_view data-v-236613da main">
-      <view class="_view data-v-236613da left"><text class="_text data-v-236613da title">{{hero.title}}</text> <text class="_text data-v-236613da name">{{hero.name}}</text>
-        <view class="_view data-v-236613da tags"><text wx:key="item" key="{{item}}" wx:for="{{hero.tags}}" wx:for-index="index" wx:for-item="item" class="_text data-v-236613da">{{item}}</text></view>
-        <view class="_view data-v-236613da ability"><text class="_text data-v-236613da">生存能力</text> <progress percent="hero.Ability.life" stroke-width="12" activeColor="#1ec76b" backgroundColor="#363636" acitve class="_progress data-v-236613da" /> <text class="_text data-v-236613da">物理攻击</text> <progress percent="hero.Ability.physical" stroke-width="12" activeColor="#f2c404" backgroundColor="#363636" active class="_progress data-v-236613da" /> <text class="_text data-v-236613da">魔法攻击</text> <progress percent="hero.Ability.magic" stroke-width="12" activeColor="#f2a709" backgroundColor="#363636" active class="_progress data-v-236613da" /> <text class="_text data-v-236613da">操作难度</text> <progress percent="hero.Ability.difficulty" stroke-width="12" activeColor="#cb8eff" backgroundColor="#363636" active class="_progress data-v-236613da" /></view>
-      </view>
-      <view class="_view data-v-236613da right">{{hero.story}}</view>
-    </view>
-  </view>
-</template>
+<template name="49c40bfa"><view class="_div data-v-236613da"><swiper indicator-dots indicator-color="#fff" indicator-active-color="#666" autoplay interval="2000" duration="500" circular class="_swiper data-v-236613da"><block wx:key="item" key="{{item}}" wx:for="{{hero.bgs}}" wx:for-index="index" wx:for-item="item"><swiper-item class="_swiper-item data-v-236613da"><image src="item" class="_image data-v-236613da"></image></swiper-item></block></swiper> <view class="_view data-v-236613da main"><view class="_view data-v-236613da left"><text class="_text data-v-236613da title">{{hero.title}}</text> <text class="_text data-v-236613da name">{{hero.name}}</text> <view class="_view data-v-236613da tags"><text wx:key="item" key="{{item}}" wx:for="{{hero.tags}}" wx:for-index="index" wx:for-item="item" class="_text data-v-236613da">{{item}}</text></view> <view class="_view data-v-236613da ability"><text class="_text data-v-236613da">生存能力</text> <progress percent="hero.Ability.life" stroke-width="12" activeColor="#1ec76b" backgroundColor="#363636" acitve class="_progress data-v-236613da" /> <text class="_text data-v-236613da">物理攻击</text> <progress percent="hero.Ability.physical" stroke-width="12" activeColor="#f2c404" backgroundColor="#363636" active class="_progress data-v-236613da" /> <text class="_text data-v-236613da">魔法攻击</text> <progress percent="hero.Ability.magic" stroke-width="12" activeColor="#f2a709" backgroundColor="#363636" active class="_progress data-v-236613da" /> <text class="_text data-v-236613da">操作难度</text> <progress percent="hero.Ability.difficulty" stroke-width="12" activeColor="#cb8eff" backgroundColor="#363636" active class="_progress data-v-236613da" /></view></view> <view class="_view data-v-236613da right">{{hero.story}}</view></view></view></template>
