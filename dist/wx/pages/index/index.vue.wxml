@@ -1,0 +1,17 @@
+<import src="/components/card.vue.wxml" /><template name="226da125">
+  <view bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_div data-v-6999bdff">
+    <view class="_div data-v-6999bdff userinfo" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <image class="_img data-v-6999bdff userinfo-avatar" wx:if="{{userInfo.avatarUrl}}" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <image class="_img data-v-6999bdff userinfo-avatar" src="/static/images/user.png" background-size="cover"></image>
+      <view class="_div data-v-6999bdff userinfo-nickname"><template data="{{...$root[$kk+'0'], $root}}" is="44be876a"></template></view>
+    </view>
+    <view class="_div data-v-6999bdff usermotto">
+      <view class="_div data-v-6999bdff user-motto"><template data="{{...$root[$kk+'1'], $root}}" is="44be876a"></template></view>
+    </view>
+    <form class="_form data-v-6999bdff form-container"><input type="text" class="_input data-v-6999bdff form-control" value="{{motto}}" placeholder="v-model" /> <input type="text" class="_input data-v-6999bdff form-control" value="{{motto}}" bindinput="handleProxy" placeholder="v-model" data-eventid="{{'1'}}" data-comkey="{{$k}}" /> <input type="text" class="_input data-v-6999bdff form-control" value="{{motto}}" bindblur="handleProxy" placeholder="v-model.lazy" data-eventid="{{'2'}}" data-comkey="{{$k}}" /></form>
+    <view class="_div data-v-6999bdff all">
+      <view class="_div data-v-6999bdff left"></view>
+      <view class="_div data-v-6999bdff right"></view>
+    </view>
+  </view>
+</template>
